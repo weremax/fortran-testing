@@ -4,7 +4,7 @@ program fibonacci
     integer :: i
     integer :: numbers(10)
 
-    numbers(1) = 1
+    numbers(1) = 0
     numbers(2) = 1
     do i = 3, 10
         numbers(i) = numbers(i-1) + numbers(i-2)
